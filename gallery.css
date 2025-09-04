@@ -1,0 +1,4 @@
+/* gallery.css */
+.gallery-page{padding-bottom:60px}
+.thumb{border-radius:10px;overflow:hidden}
+.view-gallery{display:inline-block;margin-top:12px;padding:8px 12px;border-radius:999px}

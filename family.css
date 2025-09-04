@@ -1,0 +1,5 @@
+/* family.css */
+.family-page{padding:20px}
+.member{position:relative;overflow:hidden}
+.member .meta{margin-top:8px;font-size:13px}
+.member-detail{margin-top:14px;padding:14px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent)}

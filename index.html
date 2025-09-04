@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shishir Pandey — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bio.css">
+  <link rel="stylesheet" href="address.css">
+  <link rel="stylesheet" href="family.css">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <div id="bg-3d"></div>
+
+  <header class="top-header">
+    <div class="logo">SP<span class="dot">.</span></div>
+    <nav class="nav-right">
+      <button class="theme-toggle" id="themeToggle">Dark / Light</button>
+      <a href="#home" class="nav-btn">Home</a>
+      <a href="#bio" class="nav-btn">Biography</a>
+      <a href="#family" class="nav-btn">Family</a>
+      <a href="#address" class="nav-btn">Address</a>
+      <a href="#gallery" class="nav-btn">Gallery</a>
+    </nav>
+  </header>
+
+  <main id="home" class="page">
+    <section class="hero">
+      <div class="banner">
+        <div class="banner-overlay"></div>
+        <img class="banner-img" src="images/banner.svg" alt="banner"/>
+      </div>
+      <div class="hero-content">
+        <img src="images/profile.svg" alt="Shishir" class="profile-pic" />
+        <h1 class="rainbow-heading" id="mainHeading">Shishir Pandey</h1>
+        <p class="thanks">Thanks for visiting.</p>
+        <div class="one-word" id="oneWord">Curious</div>
+
+        <div class="socials">
+          <a href="https://www.instagram.com/shishirpnde" target="_blank" class="bubble">Instagram</a>
+          <a href="https://www.shishirp.com.np" target="_blank" class="bubble">Website</a>
+          <a href="mailto:be7ccrp@gmail.com" class="bubble">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="bio" class="page bio-page">
+    <h2 class="section-title rainbow-heading">Biography</h2>
+    <div class="bio-grid">
+      <div class="bio-left">
+        <div class="bio-card">
+          <h3>Shishir Pandey</h3>
+          <p><strong>Date of birth:</strong> BS 2061-07-07 11:17pm / AD 2004-10-23 23:17</p>
+          <p><strong>Education:</strong> SEE (10) GPA 3.70 (2076), SLC 12 GPA 3.08 (2081)</p>
+          <p><strong>Skills:</strong> Reading, Exploring, Tally, Excel, Audit</p>
+          <p><strong>Experience:</strong> 1 year — Audit, Tally, Excel</p>
+        </div>
+
+        <div class="age-card">
+          <h4>Live Age Counter</h4>
+          <div id="liveAge" class="live-age">--</div>
+          <div id="liveSummary" class="live-summary">--</div>
+        </div>
+      </div>
+
+      <div class="bio-right">
+        <div class="projects">
+          <h4>Projects</h4>
+          <div class="projects-flow" id="projectsFlow">
+            <!-- Flowing projects -->
+          </div>
+        </div>
+
+        <div class="gallery-preview">
+          <h4>Gallery</h4>
+          <div class="thumbs">
+            <img src="images/photo1.svg" alt="p1" />
+            <img src="images/photo2.svg" alt="p2" />
+            <img src="images/photo3.svg" alt="p3" />
+          </div>
+          <a class="btn view-gallery" href="#gallery">Open Gallery</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="family" class="page family-page">
+    <h2 class="section-title rainbow-heading">Family</h2>
+    <div class="family-tree" id="familyTree">
+      <div class="member father" data-name="Father">
+        <img src="images/father.svg" />
+        <div class="meta"><strong>Father</strong><span>Born: --</span><span>Work: --</span></div>
+      </div>
+      <div class="member mother" data-name="Mother">
+        <img src="images/mother.svg" />
+        <div class="meta"><strong>Mother</strong><span>Born: --</span><span>Work: --</span></div>
+      </div>
+      <div class="member me" data-name="Me">
+        <img src="images/me.svg" />
+        <div class="meta"><strong>Shishir</strong><span>Born: 2061-07-07 BS</span><span>Student / Auditor</span></div>
+      </div>
+      <div class="member sister" data-name="Sister">
+        <img src="images/sister.svg" />
+        <div class="meta"><strong>Sister</strong></div>
+      </div>
+      <div class="member brother" data-name="Brother">
+        <img src="images/brother.svg" />
+        <div class="meta"><strong>Brother</strong></div>
+      </div>
+    </div>
+    <div id="memberDetail" class="member-detail">Click a card to view details.</div>
+  </section>
+
+  <section id="address" class="page address-page">
+    <h2 class="section-title rainbow-heading">Address & Places</h2>
+    <div class="address-grid">
+      <div class="place">
+        <h3>Birth Place</h3>
+        <p>Palpa (Tension Syangja)</p>
+        <img src="images/place1.svg" />
+        <a class="map-link" target="_blank" href="https://www.google.com/maps">Open in Google Maps</a>
+      </div>
+      <div class="place">
+        <h3>Home Town</h3>
+        <p>Kaligandaki Harmichour, Gulmi</p>
+        <img src="images/place2.svg" />
+        <a class="map-link" target="_blank" href="https://www.google.com/maps">Open in Google Maps</a>
+      </div>
+      <div class="place">
+        <h3>Currently</h3>
+        <p>Butwal</p>
+        <img src="images/place3.svg" />
+        <a class="map-link" target="_blank" href="https://www.google.com/maps">Open in Google Maps</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="page gallery-page">
+    <h2 class="section-title rainbow-heading">Gallery</h2>
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- images inserted by gallery.js -->
+    </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+      <img id="lightboxImg" src="" alt="full"/>
+    </div>
+  </section>
+
+<footer class="site-footer">
+  <p>© Shishir Pandey · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+<script src="bio.js"></script>
+<script src="family.js"></script>
+<script src="address.js"></script>
+<script src="gallery.js"></script>
+</body>
+</html>
